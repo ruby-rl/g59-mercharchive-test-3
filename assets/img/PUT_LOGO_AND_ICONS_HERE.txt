@@ -1,0 +1,10 @@
+This folder needs a few small image files for the homepage to look right:
+
+  logo.jpg           - your circular logo image
+  icon-instagram.png - Instagram icon
+  icon-x.png         - X (Twitter) icon
+  icon-link.png      - the "link" icon used for the G59 shop button
+
+Grab these from your current Google Site (right-click each icon -> Save
+Image As), rename them to match the list above, and drop them straight in
+this assets/img/ folder. Delete this text file once that's done.

@@ -1,0 +1,6 @@
+Drop your photos for this one right in this folder.
+Any filenames are fine - no renaming or numbering needed.
+Delete this text file once you've added at least one photo.
+
+Optional: add an info.json here to set a custom title/date/link
+instead of using the folder name as-is. See the main README.md.

@@ -1,7 +1,7 @@
 :root {
   --max-width: 1920px;
-  --text: #1a1a1a;
-  --muted: #555;
+  --text: #ffffff;
+  --muted: #cfcfcf;
   --border: #e2e2e2;
   --bg: #000000;
 }
@@ -97,6 +97,7 @@ a { color: inherit; }
 
 .category-list a:hover {
   background: #f6f6f6;
+  color: #1a1a1a;
   transform: translateY(-1px);
 }
 
@@ -156,7 +157,7 @@ a { color: inherit; }
   max-width: 420px;
   aspect-ratio: 4 / 3;
   display: block;
-  margin: 0 0 14px;
+  margin: 0 auto 14px;
 }
 
 /* gallery grid (used both for the per-collection grid and any flat grid) */
@@ -250,7 +251,7 @@ a { color: inherit; }
   flex: 0 0 300px;
   max-width: 300px;
   background: #fff;
-  color: var(--text);
+  color: #1a1a1a;
   padding: 28px 24px;
   overflow-y: auto;
 }
@@ -266,7 +267,7 @@ a { color: inherit; }
   margin: 0;
   font-size: 0.9rem;
   line-height: 1.5;
-  color: var(--muted);
+  color: #555;
   white-space: pre-wrap;
 }
 
@@ -323,13 +324,13 @@ footer.site-footer {
 .site-nav a {
   text-decoration: none;
   font-size: 0.9rem;
-  color: var(--muted);
+  color: #555;
   padding: 4px 2px;
   white-space: nowrap;
 }
 
 .site-nav a:hover {
-  color: var(--text);
+  color: #1a1a1a;
 }
 
 .site-nav a.nav-current {

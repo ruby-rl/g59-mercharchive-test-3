@@ -43,7 +43,15 @@ function cleanTitle(str) {
 }
 
 function relFromRoot(absPath) {
-  return path.relative(ROOT, absPath).split(path.sep).join("/");
+  // Encode each path segment (handles spaces, #, and other characters
+  // that are unsafe or have special meaning in a URL - a literal "#" in
+  // a src attribute otherwise gets read as a fragment and truncates the
+  // path, which is why folders with "#" in their name were breaking).
+  return path
+    .relative(ROOT, absPath)
+    .split(path.sep)
+    .map(encodeURIComponent)
+    .join("/");
 }
 
 // Recursively find every image inside a folder (handles nested subfolders).
